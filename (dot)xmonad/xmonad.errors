@@ -1,0 +1,7 @@
+
+xmonad.hs:100:1: warning: [-Wtabs]
+    Tab character found here, and in 193 further locations.
+    Please use spaces instead.
+    |
+100 |         where i = fromJust $ M.lookup ws myWorkspaceIndices
+    | ^^^^^^^^
