@@ -6,14 +6,15 @@ Config { font = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=true
                            ]
        , bgColor      = "#000000"
        , fgColor      = "#CAEAF5"
+       , alpha = 175 -- transparency moment
        , position       = TopSize L 100 24
        , lowerOnStart = True
        , hideOnStart  = False
-       , allDesktops  = True
+       , allDesktops  = False
        , persistent   = True
        , iconRoot     = ".xmonad/xmobar/"  -- default: "."
        , commands = [
-		   Run Wireless "wlp0s29u1u5" [ "-t", "<essid>:" ] 10
+		   Run Wireless "wlp0s29u1u5" [ "-t", "<essid>:" ] 10 -- type iwconfig to get your "wlp0s29u1u5" stuff and replace that with yours
 		 , Run DynNetwork     [ "--template" , "<tx>kB/s|<rx>kB/s"
                              , "--Low"      , "1000"       -- units: B/s
                              , "--High"     , "5000"       -- units: B/s
@@ -37,5 +38,5 @@ Config { font = "xft:Ubuntu:weight=bold:pixelsize=12:antialias=true:hinting=true
         ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = " <icon=arch-linux-icon_24.xpm/>  <fc=#666666>|</fc> %UnsafeStdinReader% }{ <fc=#ffffff>%wlp0s29u1u5wi%</fc> <fc=#F9F9F9>%dynnetwork%</fc> <fc=#666666>|</fc> <fc=#05ACD9>%multicpu%</fc> <fc=#666666>|</fc> <fc=#34ebc0>%memory%</fc> <fc=#666666>|</fc> <fc=#F9F9F9>%battery%</fc> <fc=#666666>|</fc> <fc=#1BD6E9>%date%</fc>%trayerpad%"
+       , template = " <icon=arch-linux-icon_24.xpm/>  <fc=#666666>|</fc> %UnsafeStdinReader% }{ <fc=#ffffff>%wlp0s29u1u5wi%</fc> <fc=#F9F9F9>%dynnetwork%</fc> <fc=#666666>|</fc> <fc=#05ACD9>%multicpu%</fc> <fc=#666666>|</fc> <fc=#34ebc0>%memory%</fc> <fc=#666666>|</fc> <fc=#F9F9F9>%battery%</fc> <fc=#666666>|</fc> <fc=#1BD6E9>%date%</fc>"
        }
