@@ -2,8 +2,14 @@
 My Dotfiles for xmonad, xmobar etc etc
 
 # Preview
+## Xmonad
 <img src="/sampleConf/xmonad.png" style="height: auto; width: 100%">
+
+## Xmobar
 <img src="/sampleConf/xmobar.png" style="height: auto; width: 100%">
+
+## Transparent Xmobar
+<img src="/sampleConf/transparent_xmobar.png" style="height: auto; width: 100%">
 
 # Stuffs
 ### !Install all cool basic stuffs from below(#Cool Dotfiles) before using dotfiles uwu
