@@ -1,6 +1,16 @@
 # myDotFiles
 My Dotfiles for xmonad, xmobar etc etc
 
+# Stuffs make sure to install
+1. Xmobar
+2. Font Awesome 5 (Font)
+3. ttf-ubuntu-font-family (Font)
+4. Rofi
+
+# Recommendation
+1. Use Linux Zen Kernel 
+2. For Nvidia Drivers -> https://aur.archlinux.org/packages/nvidia-390xx-dkms/
+
 # Preview
 ## Xmonad
 <img src="/sampleConf/xmonad.png" style="height: auto; width: 100%">
