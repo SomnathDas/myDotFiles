@@ -6,6 +6,7 @@ My Dotfiles for xmonad, xmobar etc etc
 2. Font Awesome 5 (Font)
 3. ttf-ubuntu-font-family (Font)
 4. Rofi
+5. xinit
 
 # Recommendation
 1. Use Linux Zen Kernel 
