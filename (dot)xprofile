@@ -1,5 +1,8 @@
 export PATH=$HOME/.local/bin:$PATH
 
+#Screen Layout
+xrandr --output VGA-1 --primary --below HDMI-1
+
 #Wallpaper
 nitrogen --restore &
 
