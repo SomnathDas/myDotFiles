@@ -6,8 +6,12 @@ My Dotfiles for bspwm, xmonad etc etc
 # Preview
 <img src="/sampleConf/endevour-bspwm.png" style="height: auto; width: 100%">
 
-# Polybar
+# Polybar Themes
 1. Refer -> https://github.com/adi1090x/polybar-themes
+
+## For Upload/Download Speed in polybar
+1. Go to modules.ini of the respective theme and search for "label-connected" in [modules/network]
+2. add ```%downspeed% %upspeed%``` at the end of the line before -> " <-
 
 # Picom
 1. Install -> https://github.com/ibhagwan/picom (available through AUR)
