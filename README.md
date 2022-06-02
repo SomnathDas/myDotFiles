@@ -3,26 +3,30 @@ My Dotfiles for bspwm, xmonad etc etc
 
 # --------------- BSPWM CONFIG ---------------
 
+# Preview
+<img src="/sampleConf/endevour-bspwm.png" style="height: auto; width: 100%">
+
 # Polybar
-Refer -> https://github.com/adi1090x/polybar-themes
+1. Refer -> https://github.com/adi1090x/polybar-themes
 
 # Picom
-Install -> https://github.com/ibhagwan/picom (available through AUR)
-Config -> bspwm(config)
+1. Install -> https://github.com/ibhagwan/picom (available through AUR)
+2. Config -> bspwm(config)
 
 # Rofi
-Config -> bspwm(config)
+1. Config -> bspwm(config)
 
 # BSPWM
-Config -> bspwm(config)
+1. Config -> bspwm(config)
 
 # Shell
-Refer -> https://github.com/ohmyzsh/ohmyzsh
+1. Refer -> https://github.com/ohmyzsh/ohmyzsh
 
 # Shell Theme
-Refer -> https://github.com/romkatv/powerlevel10k
+1. Refer -> https://github.com/romkatv/powerlevel10k
 
-# Make sure to put .xprofile from bspwm(config) at $Home directory
+# Xprofile
+1. Config -> bspwm(config)
 
 # --------------- XMONAD CONFIG ---------------
 
