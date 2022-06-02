@@ -11,7 +11,7 @@ My Dotfiles for bspwm, xmonad etc etc
 
 # Picom
 1. Install -> https://github.com/ibhagwan/picom (available through AUR)
-2. Config -> bspwm(config)
+2. Config -> bspwm(config) -> put this in .config directory in home directory
 
 # Rofi
 1. Config -> bspwm(config)
