@@ -1,5 +1,30 @@
 # myDotFiles
-My Dotfiles for xmonad, xmobar etc etc
+My Dotfiles for bspwm, xmonad etc etc
+
+# --------------- BSPWM CONFIG ---------------
+
+# Polybar
+Refer -> https://github.com/adi1090x/polybar-themes
+
+# Picom
+Install -> https://github.com/ibhagwan/picom (available through AUR)
+Config -> bspwm(config)
+
+# Rofi
+Config -> bspwm(config)
+
+# BSPWM
+Config -> bspwm(config)
+
+# Shell
+Refer -> https://github.com/ohmyzsh/ohmyzsh
+
+# Shell Theme
+Refer -> https://github.com/romkatv/powerlevel10k
+
+# Make sure to put .xprofile from bspwm(config) at $Home directory
+
+# --------------- XMONAD CONFIG ---------------
 
 # Stuffs make sure to install
 1. Xmobar
