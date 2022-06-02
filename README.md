@@ -32,6 +32,11 @@ My Dotfiles for bspwm, xmonad etc etc
 # Xprofile
 1. Config -> bspwm(config)
 
+#Troubleshooting
+## 0% or Error in audio on polybar ?
+-> Install *extra/pulseaudio-alsa* [ALSA Configuration for PulseAudio]
+through **AUR**
+
 # --------------- XMONAD CONFIG ---------------
 
 # Stuffs make sure to install
